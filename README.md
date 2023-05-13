@@ -86,6 +86,9 @@ systemctl enable zabbix-server apache2
 2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 4. Приложите в файл README.md текст использованных команд в GitHub
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/fc30a6d3-50d0-480d-babe-98bf45150b0b)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/e83ddf90-5243-43cd-b87a-6fe4551cc499)
+
 
 ---
 ## Задание 3 со звёздочкой*
