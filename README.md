@@ -88,6 +88,12 @@ systemctl enable zabbix-server apache2
 4. Приложите в файл README.md текст использованных команд в GitHub
 ![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/fc30a6d3-50d0-480d-babe-98bf45150b0b)
 ![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/e83ddf90-5243-43cd-b87a-6fe4551cc499)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/e8e8d84d-6c2e-4606-98ea-d127431d633b)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/adbdfcd2-92b3-4629-8d1c-d058d0b09066)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/6f430706-d5fb-439e-8bb1-de3dadc122cd)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/220c1afe-ee87-44dd-b94e-b16d579af4e3)
+
+
 
 
 ---
