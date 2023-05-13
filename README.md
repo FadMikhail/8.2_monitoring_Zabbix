@@ -40,6 +40,22 @@
 #### Требования к результаты 
 1. Прикрепите в файл README.md скриншот авторизации в админке
 2. Приложите в файл README.md текст использованных команд в GitHub
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/18643fe9-c002-47c7-a110-9a9dceb35951)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/e48cc788-6741-4c53-b26a-e829cd02db0f)
+![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/9af56982-c6de-4ca2-a03b-15e5ab3f4ea4)
+
+# wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
+# dpkg -i zabbix-release_6.0-4+debian11_all.deb
+# apt update
+# apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts
+# sudo -u postgres createuser --pwprompt zabbix
+# sudo -u postgres createdb -O zabbix zabbix
+# zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+nano /etc/zabbix/zabbix_server.conf
+DBPassword=password
+# systemctl restart zabbix-server apache2
+# systemctl enable zabbix-server apache2
+
 
 ---
 
