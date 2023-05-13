@@ -45,16 +45,27 @@
 ![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/9af56982-c6de-4ca2-a03b-15e5ab3f4ea4)
 
 wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
+
 dpkg -i zabbix-release_6.0-4+debian11_all.deb
+
 apt update
+
 apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts
+
 sudo -u postgres createuser --pwprompt zabbix
+
 sudo -u postgres createdb -O zabbix zabbix
+
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+
 nano /etc/zabbix/zabbix_server.conf
+
 DBPassword=password
+
 systemctl restart zabbix-server apache2
+
 systemctl enable zabbix-server apache2
+
 
 
 ---
