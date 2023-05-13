@@ -93,8 +93,14 @@ systemctl enable zabbix-server apache2
 ![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/6f430706-d5fb-439e-8bb1-de3dadc122cd)
 ![image](https://github.com/FadMikhail/8.2_monitoring_Zabbix/assets/132131230/220c1afe-ee87-44dd-b94e-b16d579af4e3)
 
-
-
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
+dpkg -i zabbix-release_6.0-4+debian11_all.deb
+apt update
+apt install zabbix-agent
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
+find / -name zabbix_agentd.log
+tail -f /var/log/zabbix/zabbix_agentd.log
 
 ---
 ## Задание 3 со звёздочкой*
